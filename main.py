@@ -31,7 +31,7 @@ while input_val != "DONE":
                     ddc = ddc[0]
                 break
     output_vals.append(
-        "%s;%s;%s;%s"
+        "%s;%s;%s;%s;house"
         % (volume_info.get("title"), volume_info.get("authors")[0], input_val, ddc)
     )
     input_val = input()
