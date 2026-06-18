@@ -1,3 +1,14 @@
+> **Status (2026-06-18):** This repo is the historical proof-of-concept and the design home for a
+> decision: CollectionsScanner survives as a thin, offline-tolerant **capture client** that feeds
+> `waregin/trove-os`. The capture client + importer are to be **built in trove-os**, porting the small
+> reusable bits from here. See:
+> - [`docs/decision-record.md`](docs/decision-record.md) — inventory, options, recommendation, rationale
+> - [`docs/capture-client-spec.md`](docs/capture-client-spec.md) — minimal move-ready spec + data model
+> - [`docs/trove-import-mapping.md`](docs/trove-import-mapping.md) — how captured rows land in the Trove schema
+> - GitHub issues in this repo — the task list (#1 is labeled `next`)
+>
+> ---
+
 Simple app to accept input of ISBNs and use two API calls to find
 information about the book. This information is then output as
 semicolon separated values to be pasted into my Collections database.
